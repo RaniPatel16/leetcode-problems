@@ -1,3 +1,9 @@
+#include <string>
+#include <algorithm>
+
+using std::string;
+using std::max;
+
 class Solution {
 public:
 
