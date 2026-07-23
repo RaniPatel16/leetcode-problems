@@ -13,7 +13,7 @@ class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {
 
-        if(head == NULL || left == right)
+        if(head == nullptr || left == right)
             return head;
 
         ListNode* dummy = new ListNode(0);
